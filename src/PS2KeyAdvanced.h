@@ -386,6 +386,9 @@ class PS2KeyAdvanced {
     /*  Send Echo command to keyboard
         returned data in keyboard buffer read as keys */
     void echo( void );
+	
+	/*  Special LED on Fujitsu Keyboard */
+	void blinkCoffee( bool on );
 
     /*  Send Typematic rate/delay command to keyboard
        First Parameter  rate is 0 - 0x1F (31)

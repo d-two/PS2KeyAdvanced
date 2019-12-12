@@ -810,6 +810,14 @@ if( ( send_byte( PS2_KEY_IGNORE ) ) ) // wait data PS2_KC_ECHO
   send_next();                   // if idle start transmission
 }
 
+void PS2KeyAdvanced::blinkCoffee( bool on )
+{
+// send command
+send_byte( (on) ? PS2_COFFEE_BLINK_ON : PS2_COFFEE_BLINK_OFF);
+
+if( ( send_byte( PS2_KEY_IGNORE ) ) ) // wait data command
+  send_next();                   // if idle start transmission
+}
 
 /*  Get the ID used in keyboard
     returned data in keyboard buffer read as keys */

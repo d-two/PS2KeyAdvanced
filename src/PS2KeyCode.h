@@ -273,4 +273,17 @@
 #define PS2_KC_POWER    0X37
 #define PS2_KC_SLEEP    0X3F
 #define PS2_KC_WAKE     0X5E
+
+/* Fujitsu SK-2500-2D */
+#define PS2_KC_RECORD     0X1C
+#define PS2_KC_PLAY_BACK  0X24
+#define PS2_KC_CONFIRM    0X33
+#define PS2_KC_SYSTEM_BRAKE 0X42
+#define PS2_KC_CLOSE      0X43
+#define PS2_KC_CD_EJECT   0X44
+#define PS2_KC_SP_MENU    0X4B
+#define PS2_KC_COFFEE     0X65
+/* Special LED */
+#define PS2_COFFEE_BLINK_ON 0XEB
+#define PS2_COFFEE_BLINK_OFF 0XEC
 #endif
