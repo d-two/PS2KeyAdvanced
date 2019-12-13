@@ -313,6 +313,7 @@
 #define PS2_KEY_EUROPE2     0X8B
 #define PS2_KEY_POWER       0X8C
 #define PS2_KEY_SLEEP       0X8D
+#define PS2_KEY_SYS_BRAKE   0X8E /* Fujitsu SK-2500-2D */
 #define PS2_KEY_WAKE        0X90
 #define PS2_KEY_INTL1       0X91
 #define PS2_KEY_INTL2       0X92
@@ -324,6 +325,14 @@
 #define PS2_KEY_LANG3       0X98
 #define PS2_KEY_LANG4       0X99
 #define PS2_KEY_LANG5       0xA0
+ /* Fujitsu SK-2500-2D */
+#define PS2_KEY_RECORD      0XA1
+#define PS2_KEY_PLAY_BACK   0XA2
+#define PS2_KEY_CONFIRM     0XA3
+#define PS2_KEY_CLOSE       0XA4
+#define PS2_KEY_CD_EJECT    0XA5
+#define PS2_KEY_SP_MENU     0XA6
+#define PS2_KEY_COFFEE      0XA7
 
 /*
   Purpose: Provides advanced access to PS2 keyboards

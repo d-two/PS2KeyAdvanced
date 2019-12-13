@@ -228,7 +228,15 @@ const uint8_t extended_key[][ 2 ] = {
                 { PS2_KC_WEB_FAVOR, PS2_KEY_WEB_FAVOR },
                 { PS2_KC_POWER, PS2_KEY_POWER },
                 { PS2_KC_SLEEP, PS2_KEY_SLEEP },
-                { PS2_KC_WAKE, PS2_KEY_WAKE }
+                { PS2_KC_WAKE, PS2_KEY_WAKE },
+                { PS2_KC_SYSTEM_BRAKE, PS2_KEY_SYS_BRAKE},
+                { PS2_KC_RECORD, PS2_KEY_RECORD},
+                { PS2_KC_PLAY_BACK, PS2_KEY_PLAY_BACK},
+                { PS2_KC_CONFIRM, PS2_KEY_CONFIRM},
+                { PS2_KC_CLOSE, PS2_KEY_CLOSE},
+                { PS2_KC_CD_EJECT, PS2_KEY_CD_EJECT},
+                { PS2_KC_SP_MENU, PS2_KEY_SP_MENU},
+                { PS2_KC_COFFEE, PS2_KEY_COFFEE}
                 };
 
 /* Scroll lock numeric keypad re-mappings for NOT NUMLOCK */
